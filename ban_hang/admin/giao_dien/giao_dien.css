@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header{
+    height: 100px;
+    width: 100vw;
+    border-bottom: 2px solid #dddd;
+    text-align: center;
+    
+}
+.admin-content {
+    display: flex;
+}
+.admin-content-left{
+    background-color: #dddd;
+    width: 20%;
+    height: 1000px;
+    padding: 30px 0 0 12px;
+}
+.admin-content-left > ul > li > a{ 
+    font-weight: bold; 
+
+}
+.admin-content-left ul li {
+    margin: 6px 0;
+}
+
+.admin-content-left ul li > ul {
+    padding: 0 12px;
+}
+.admin-content-right{
+    width: 70%;
+    padding: 30px 0 0 12px;
+}
+.admin-content-right-cartegory-add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+.admin-content-right-cartegory-add input[type=submit]{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #757575;
+    border: none;
+    color:#fff;
+    transition: all o.3s ease;
+}
+.admin-content-right-cartegory-add input[type=submit]:hover{
+    background-color: transparent;
+    border: 1px solid #757575;
+    color: #000;
+}
+ table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 12px;
+}
+ table tr th,td{
+    border: 1px solid #000;
+}
+.admin-content-right-product-add h1 {
+    margin-bottom: 20px;
+}
+.admin-content-right-product-add input,select{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 6px 0 12px;
+    padding-left: 12px;
+}
+.admin-content-right-product-add input[type=submit]{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+    background-color: #757575;
+    border: none;
+    color:#fff;
+    transition: all o.3s ease;
+}
+.admin-content-right-product-add input[type=submit]:hover{
+    background-color: transparent;
+    border: 1px solid #757575;
+    color: #000;
+}
+.admin-content-right-product-add textarea{
+    display: block;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+input[type=submit]{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+    background-color: #757575;
+    border: none;
+    color:#fff;
+    transition: all o.3s ease;
+}
+input[type=submit]:hover{
+    background-color: transparent;
+    border: 1px solid #757575;
+    color: #000;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+.login-form h1 {
+    color: #009999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
